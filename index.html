@@ -11,21 +11,10 @@
 	<!--javascript-->
 	<script src="js/jquery-1-11-2-min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	 <script src="js/base.js"></script>
-	 
-	<!--manifest-->
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/manifest.json">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#061496">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="theme-color" content="#000000">
-
-
+ 	<script src="js/base.js"></script>
 </head>
 <body>
-	<header class="row">
+	<header class="row no-gutters">
 		<div id="logo" class="col-xs-6">
 			<img src="img/aclu-2-144.png" alt="American Civil Liberties Union of Wisconsin Logo">
 		</div>
@@ -38,54 +27,79 @@
 	</header>
 
 	<div id="hero">
-		<img src="img/adult-casual-clothes-296881-v2.jpg" width="100%">
+		<img src="img/adult-casual-clothes-296881-v2.jpg" width="100%" alt="">
 	</div>
-	<div id="mainContent">
+	<div class="container">
 		<div>
-			<p id="warning">Any time you interact with the police always keep these fours critical steps in mind</p>
+			<p class="description">Any time you interact with the police always follow these fours critical steps...</p>
 		</div>
-		<div class="row center-block" style="">
-			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 step" >
-				<div class="row">
-					<div class="col-xs-4">1</div>
-					<div class="col-xs-8"id="text1">DON'T RUN</div>
+		<div class="row" style="">
+			<div class="center">
+				<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 step" >
+					<div class="row">
+						<div class="col-xs-2">1</div>
+						<div class="col-xs-10"id="text1">DON'T RUN</div>
+					</div>
+				</div>
+				<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 step" >
+					<div class="row">
+						<div class="col-xs-2">2</div>
+						<div id="text2" class="col-xs-10">STAY CALM</div>
+					</div>
 				</div>
 			</div>
-			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 step" >
-				<div class="row">
-					<div class="col-xs-4">2</div>
-					<div id="text2" class="col-xs-8">STAY CALM</div>
+		</div>
+		<div class="row" style="">
+			<div class="center">
+				<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 step" >
+					<div class="row">
+						<div class="col-xs-2">3</div>
+						<div id="text2" class="col-xs-10">BE QUIET</div>
+					</div>
 				</div>
-			</div>
-			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 step" >
-				<div class="row">
-					<div class="col-xs-4">3</div>
-					<div id="text2" class="col-xs-8">BE QUIET</div>
-				</div>
-			</div>
-			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 step" >
-				<div class="row">
-					<div class="col-xs-4">4</div>
-					<div id="text2" class="col-xs-8">KEEP HANDS IN VIEW</div>
+				<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 step" >
+					<div class="row">
+						<div class="col-xs-2">4</div>
+						<div id="text2" class="col-xs-10">HANDS IN VIEW</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="row center-block" style="margin-top: 50px;">
-			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 scenario">
-				TEST
-			</div>
-			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 scenario">
-				TEST
-			</div>
-			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 scenario">
-				TEST
-			</div>
-			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 scenario">
-				TEST
+		<div style="margin-top: 50px;">
+			<p class="description">KNOW YOUR RIGHTS IN CASE...</p>
+		</div>
+		<div class="row center-block" style="">
+			<div class="center">
+				<a href="street.html"><div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 scenario">
+					YOU ARE STOPPED ON THE STREET
+				</div></a>
+				<a href="vehicle.html"><div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 scenario">
+					YOU ARE STOPPED IN A VEHICLE
+				</div></a>
+				<a href="home.html"><div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 scenario">
+					OFFICERS COME TO YOUR HOME
+				</div></a>
+				<a href="arrest.html"><div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 scenario">
+					YOU ARE PLACED UNDER ARREST
+				</div></a>
 			</div>
 		</div>
 	</div>
+	<footer>
+		<div class="container">
+			<div class="row" style="">
+				<div class="center">
+					<a href=""><div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 data">
+						CAPTURE INFORMATION
+					</div></a>
+					<a href=""><div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 data">
+						SUBMIT A COMPLAINT
+					</div></a>
+				</div>
+			</div>
+		</div>
+	</footer>
 </body>
 <script>
     if('serviceWorker' in navigator){
