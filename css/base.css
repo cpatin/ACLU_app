@@ -2,10 +2,21 @@ body{
 	width: 100%;
 	font-size: 16px;
 	margin: 0px;
+	height: 100%;
 }
 a{
 	text-decoration: none;
 }
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -120px;
+  padding: 0 0 120px;
+}
+.containTop{
+	margin-top: 25px;
+}
+
 header{
 	width: 100%;
 	overflow: hidden;
@@ -104,4 +115,5 @@ footer{
 	margin-left: 0 auto;
 	margin-right: 0 auto;
 	padding: 20px;
+	height: auto;
 }
