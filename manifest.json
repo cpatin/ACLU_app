@@ -27,7 +27,7 @@
     "lang": "en-US",
     "description": "Know your rights when stopped by an officer",
     "serviceworker" :{
-        "src": "/server.js",
+        "src": "/server_worker.js",
         "scope": "/"
     }
   
