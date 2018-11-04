@@ -12,7 +12,11 @@ const filesToCache = [
     'js/bootstrap.min.js',
     'js/jquery-1-11-2-min.js',
     'js/jquery-ui-min.js',
-    'js/jquery.cubeportfolio.min.js'
+    'js/jquery.cubeportfolio.min.js',
+    'street.html',
+    'vehicle.html',
+    'home.html',
+    'arrest.html'
 
   ];
 
