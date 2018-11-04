@@ -30,8 +30,7 @@
         "src": "/service_worker.js",
         "scope": "/"
     }
-  
-  
+
   }
   
   
