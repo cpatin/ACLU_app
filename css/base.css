@@ -3,6 +3,9 @@ body{
 	font-size: 16px;
 	margin: 0px;
 }
+a{
+	text-decoration: none;
+}
 header{
 	width: 100%;
 	overflow: hidden;
@@ -11,6 +14,15 @@ header{
 .row{
 	margin-right: 0px !important; 
 	margin-left: 0px !important;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    width: 90%;
+}
+.center{
+	margin: 0 auto;
+    width: 95%;
 }
 #logo{
 	padding-left: 30px;
@@ -29,37 +41,67 @@ select{
 #hero{
 	clear: both;
 }
-#mainContent{
-	float: none;
-	width: 100%;
-	margin: 0 auto;
-
-}
-#warning{
+.description{
 	color: #055286;
 	font-size: 2.5REM;
+	font-weight: bold;
 	margin-top: 25px;
-	text-align: center;
+	/*text-align: center;*/
 }
 .step{
+	background-color: #ed1c24;
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	min-height: 50px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 2.5REM;
+}
+.subStep{
+	background-color: #518ECD;
+	color: #FFFFFF;
+	margin-top: 10px;
+	/*margin-left: 10px;
+	margin-right: 10px;*/
+	min-height: 50px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 2.5REM;
+}
+.red{
+	background-color: #ed1c24;
+}
+.scenario{
 	background-color: #518ECD;
 	color: #FFFFFF;
 	margin-top: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
-	height: 50px;
-	padding: 10px;
-	font-weight: bold;
-}
-.scenario{
-	background-color: #005286;
-	color: #FFFFFF;
-	margin-top: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
-	height: 100px;
+	min-height: 100px;
 	padding: 30px;
 	font-weight: bold;
 	text-align: center;
 	font-size: 2.5REM;
+}
+.data{
+	background-color: #CCCCCC;
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	min-height: 50px;
+	padding: 20px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2.5REM;
+}
+footer{
+	width: 100%;
+	background-color: #005286;
+	margin-top: 50px;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	padding: 20px;
 }
