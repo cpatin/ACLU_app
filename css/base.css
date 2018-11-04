@@ -1,0 +1,65 @@
+body{
+	width: 100%;
+	font-size: 16px;
+	margin: 0px;
+}
+header{
+	width: 100%;
+	overflow: hidden;
+	background-color: #055286;
+}
+.row{
+	margin-right: 0px !important; 
+	margin-left: 0px !important;
+}
+#logo{
+	padding-left: 30px;
+
+}
+#language{
+	padding-top: 20px;
+	padding-right: 30px;
+}
+select{
+	border: none;
+	border-radius: 0px;
+	float: right;
+	height: 30px;
+}
+#hero{
+	clear: both;
+}
+#mainContent{
+	float: none;
+	width: 100%;
+	margin: 0 auto;
+
+}
+#warning{
+	color: #055286;
+	font-size: 2.5REM;
+	margin-top: 25px;
+	text-align: center;
+}
+.step{
+	background-color: #518ECD;
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 50px;
+	padding: 10px;
+	font-weight: bold;
+}
+.scenario{
+	background-color: #005286;
+	color: #FFFFFF;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 100px;
+	padding: 30px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2.5REM;
+}

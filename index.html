@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Know your Rights</title>
+
+	<meta>
+	<!--css-->
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" href="css/base.css" >
+	
+	<!--javascript-->
+	<script src="js/jquery-1-11-2-min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+ 	<script src="js/base.js"></script>
+</head>
+<body>
+	<header class="row">
+		<div id="logo" class="col-xs-6">
+			<img src="img/aclu-2-144.png" alt="American Civil Liberties Union of Wisconsin Logo">
+		</div>
+		<div id="language" class="col-xs-6">
+			<select id="langSelected">
+			  <option value="english">English</option>
+			  <option value="spanish">Spanish</option>
+			</select>
+		</div>
+	</header>
+
+	<div id="hero">
+		<img src="img/adult-casual-clothes-296881-v2.jpg" width="100%">
+	</div>
+	<div id="mainContent">
+		<div>
+			<p id="warning">Any time you interact with the police always keep these fours critical steps in mind</p>
+		</div>
+		<div class="row center-block" style="">
+			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 step" >
+				<div class="row">
+					<div class="col-xs-4">1</div>
+					<div class="col-xs-8"id="text1">DON'T RUN</div>
+				</div>
+			</div>
+			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 step" >
+				<div class="row">
+					<div class="col-xs-4">2</div>
+					<div id="text2" class="col-xs-8">STAY CALM</div>
+				</div>
+			</div>
+			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 step" >
+				<div class="row">
+					<div class="col-xs-4">3</div>
+					<div id="text2" class="col-xs-8">BE QUIET</div>
+				</div>
+			</div>
+			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 step" >
+				<div class="row">
+					<div class="col-xs-4">4</div>
+					<div id="text2" class="col-xs-8">KEEP HANDS IN VIEW</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row center-block" style="margin-top: 50px;">
+			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 scenario">
+				TEST
+			</div>
+			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 scenario">
+				TEST
+			</div>
+			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 scenario">
+				TEST
+			</div>
+			<div class="col-lg-5  col-md-5 col-sm-5 col-xs-11 scenario">
+				TEST
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+    if('serviceWorker' in navigator){
+      window.addEventListener('load', ()=>{
+        navigator.serviceWorker.register('service_worker.js')
+        .then(registration =>{
+          console.log('SW registered with scope', registration.scope)
+        })
+        .catch(err=> {
+          console.error('Registration failed: ', err);
+       });
+      });
+    }
+ </script>
+</html>
